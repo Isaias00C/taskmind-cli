@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:taskmind-cli}",
+            "name": "Debug taskmind",
+            "target": "taskmind",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug taskmind"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:taskmind-cli}",
+            "name": "Release taskmind",
+            "target": "taskmind",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release taskmind"
+        }
+    ]
+}
